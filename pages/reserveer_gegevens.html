@@ -3,12 +3,9 @@ layout   : default
 permalink: reserveergegevens
 # Custom Page Variables
 # ─────────────────────
-title: gegevens
+title: Gegevens
 ---
-<!-- pagina titel -->
-        <div class="col-12">
-                <h1>{{ page.title }}</h1>
-        </div>
+
 <!-- tekst -->
     <div class="row">
         <div class="col-12">
@@ -62,7 +59,7 @@ title: gegevens
                     <div class="form-check">
                         <label class="form-check-label">
                             <input type="checkbox" class="form-check-input">
-                            Ik accepteer de <a href="#modal-content"data-toggle="modal" data-target=".bd-example-modal-lg">gebruiksvoorwaarden</a>
+                            Ik accepteer de <a href="#modal-content"data-toggle="modal" data-target=".bd-example-modal-lg" >gebruiksvoorwaarden</a>
                         </label>
                     </div>
             </form>
@@ -71,10 +68,18 @@ title: gegevens
             <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg">
                     <div class="modal-content">
+                        <div class="row">
+                            <div class="col-12"d-flex justify-content-end>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                        </div>
+                        
                             <h3>algemene gebruiksvoorwaarden</h3>
                                 <div class="row">
                                     <div class="col-12">
-                                        <p>
+                                        <p class="model-inhoud">
                                             Bij gebruik maken van ons product 
                                             vragen wij u rekening te houden met 
                                             de volgende voorwaardes. 
@@ -100,6 +105,7 @@ title: gegevens
                                         </p>
                                     </div>
                                 </div>
+                           
                     </div>
                 </div>
             </div>
