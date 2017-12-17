@@ -7,7 +7,7 @@ title: Reserveer hier
 ---
 <!-- pagina titel -->
         <div class="col-12">
-                <h1>{{ page.title }}</h1>
+                <h1 class="kalender titelkader">{{ page.title }}</h1>
         </div>
 <!-- kalender carousel -->
     <div class="row">
@@ -75,8 +75,19 @@ title: Reserveer hier
             </div>
         </div>
     </div>
+
+    <div class="row">
+        <div class="col-12">
+            <ul class="legende">
+                <li class="ochtend">teddy is gereserveerd die ochtend</li>
+                <li class="middag"> teddy is gereserveerd die middag</li>
+                <li class="avond"> teddy is gereserveerd die avond</li>
+                <li class="gesloten"> cinema is gesloten</li>
+            </ul>
+        </div>
+    </div>
 <!-- tekst -->
-        <div class="col-11">
+        <div class="col-12 witruimte">
             Selecteer de gewenste datum, vermits 
             beschikbaarheid van Teddy. 
             Wij zorgen er dan voor dat hij klaar zal 
@@ -86,7 +97,7 @@ title: Reserveer hier
         <div class="col-12">
             <form>
         <!-- datum -->
-                <div class="form-group">
+                <div class="form-group witruimte">
                     <label for="exampleFormControlSelect1">Datum:</label>
                         <select class="form-control" id="exampleFormControlSelect1">
                             <option>1</option>
@@ -123,7 +134,7 @@ title: Reserveer hier
                         </select>
                 </div>  
         <!-- maand -->
-                <div class="form-group">
+                <div class="form-group witruimte">
                         <label for="exampleFormControlSelect1">Maand:</label>
                             <select class="form-control" id="exampleFormControlSelect1">
                                 <option>januarie</option>
@@ -141,7 +152,7 @@ title: Reserveer hier
                             </select>
                 </div>  
         <!-- jaar -->
-                <div class="form-group">
+                <div class="form-group witruimte">
                     <label for="exampleFormControlSelect1">Jaar:</label>
                             <select class="form-control" id="exampleFormControlSelect1">
                                 <option>2017</option>
@@ -152,20 +163,20 @@ title: Reserveer hier
                             </select>
                 </div>  
         <!-- uur -->
-                <div class="form-group">
+                <div class="form-group ">
                     <label for="exampleFormControlInput1">Uur*:</label>
                         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="voer hier de uren in">    
                 </div>
 
             </form>
             
-            <p> * Vul hier het begin en eind uur van de film toe</p>
+            <p class="klein"> * Vul hier het begin en eind uur van de film toe</p>
         </div>
 
 <!-- button -->
         <div class="col-12">
             <a href="reserveergegevens.html">
-                <button type="button" class="btn btn-secondary knop" >volgende</button>
+                <button type="button" class="btn btn-secondary knop letter2" >volgende</button>
             </a>   
         </div>
         
