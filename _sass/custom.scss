@@ -30,6 +30,9 @@
         margin-bottom: 30px;
     }
 
+    .spatie {
+        margin-top: 20px;
+    }
 
 /* index css */
 
@@ -52,10 +55,6 @@
     }
 
 /* wie zijn we css */
-
-    .verzend {
-        margin-bottom: 8px;
-    }
 
 /* meet teddy css*/
 
@@ -94,6 +93,10 @@
             font-size: 0.75em;
             
         }
+
+        .lijstje {
+            list-style-image: url(../../images/)
+        }
     /* reserveer gegevens*/
 
         .modal-content {
@@ -108,3 +111,69 @@
         background-color: rgb(87,87,98);
         padding: 30px;
     }
+
+
+    // Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    
+    /* algemeen */
+        .titelkader {
+            background-color: rgb(40,35,42) ;
+            padding: 6px;
+            margin-top:30px;
+            margin-right: 100px;
+            margin-left: -100px;
+            color: rgb(227,227,227);
+            border: 1px solid ;
+            border-bottom-right-radius: 40px;
+        }
+
+        .witruimte {
+            margin-bottom: 60px;
+        }
+
+        .spatie {
+            margin-top: 20px;
+        }
+
+        .knop {
+            margin-top: 20px;
+            margin-bottom: 80px;
+        }
+
+    /* wie zijn we */
+        
+        .naam{
+            margin-right: 60px;
+        }
+
+        .opschuiven {
+            margin-left: 60px;
+        }
+
+    /* footer */
+
+        .foter{
+            background-color: rgb(87,87,98);
+            padding: 30px;
+        }
+       
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+
+ }

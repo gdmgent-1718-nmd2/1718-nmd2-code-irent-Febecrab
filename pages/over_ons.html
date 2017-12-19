@@ -6,13 +6,13 @@ permalink: over_ons
 title: Wie zijn we
 ---
 <!-- pagina titel -->
-        <div class="col-12">
+        <div class="col-12 col-lg-3">
             <h2 class="titelkader witruimte">{{ page.title }}</h2>
         </div>
 
 <!-- tekst -->
     <div class="row">
-        <div class="col-12">
+        <div class="col-12 col-lg-4">
             <p>Wij zijn 2 enthousiaste studentes die samen opzoek gaan naar
                 orginele manieren om u cinemabezoek nog aangenamer te maken.
             </p>
@@ -20,21 +20,27 @@ title: Wie zijn we
                 Wij proberen de mensen te bereiken die zich niet snel 
                 aangesproken voelen door de film. 
             </p>
+        
+        
+        <!-- button naar 4.0 -->
+                    <a href="reserveer.html">
+                        <button type="button" class="btn btn-secondary groteknop letter2 " >! reserveer hier !</button>    
+                    </a>
+                
+        </div>
 
+        <div class="col-12 col-lg-5">
             <p>
                 Indien u vragen/ opmerkingen/ suggesties/ klachten/… hebt. 
                 Twijfel dan zeker niet om contact met ons op te nemen!  
                 Of bel ons via: 05 66 123 456
             </p>
-        </div>
-    </div>
+    
 <!-- contact formulier -->
-    <div class="row">
-        <div class="col-12">
             <form>
                     <div class="form-group">
                         <label for="exampleFormControlInput1"></label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="volledige naam">
+                            <input type="email" class="form-control naam" id="exampleFormControlInput1" placeholder="volledige naam">
                     </div>
 
                     <div class="form-group">
@@ -44,26 +50,29 @@ title: Wie zijn we
 
                     <div class="form-group">
                         <label for="exampleFormControlTextarea1"></label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">bericht...</textarea>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="hier typen.."></textarea>
                     </div>
               </form>
         </div>
-<!-- button -->
-        <div class="col-5">
-            <button type="button" class="btn btn-secondary verzend letter2 knop" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" >verzenden</button>                           
-        </div>
-
-        <div class="collapse" id="collapseExample">
-            <div class="card card-body">
-                Danku wel! We zullen zo snel mogelijk reageren! 
-            </div>
-        </div>
-<!-- button naar 4.0 -->
-        <div class="col-12">
-            <a href="reserveer.html">
-                <button type="button" class="btn btn-secondary btn-lg btn-block groteknop letter2" >! reserveer hier !</button>    
-            </a>
-        </div>
     </div>
+<!-- button -->
+    <div class="row">
+        <div class="col-12 col-lg-9">
+            <button type="button" class="btn btn-secondary letter2 knop float-right " data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" > verzenden</button>                           
+        </div>
+    <!-- collapse verzend button -->
+        <div class:"col-12 col-lg-11">
+            <div class="opschuiven">
+                <div class="collapse " id="collapseExample">
+                    <div class="card card-body">
+                        Danku wel! We zullen zo snel mogelijk reageren! 
+                    </div>
+                </div>
+            
+        </div>
+       
+    </div>
+
+  
 
       
