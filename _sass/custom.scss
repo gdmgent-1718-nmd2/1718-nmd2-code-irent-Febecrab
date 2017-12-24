@@ -63,7 +63,7 @@
 
     .beertje{
         margin-top: 120px;
-        margin-bottom: 90px;
+        margin-bottom: 65px;
     }
 
     .text-center {
@@ -136,7 +136,7 @@
 
     /* reserveer betalen */
         .kadertje {
-            
+
         }
 
 /* voorwaarden css */
@@ -159,6 +159,53 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { 
+
+    /* algemeen */
+        p {
+            margin-bottom: 60px;
+        }
+
+    /* index */
+        h4 {
+            font-size: 2em;
+        }
+
+        .appel {
+            margin-left: -70px;
+        }
+
+        .beertje{
+            margin-top: 90px;
+            margin-bottom: 0px;
+        }
+
+        .pijltje {
+            width: 20%;
+
+        }
+
+        .inleiding { 
+            margin-bottom: 30px;
+            font-size: 1.3em;
+            margin-top: 12px;
+        }
+
+
+    /* meet teddy */
+
+    /* wie zijn we */
+
+    /* reserveer */
+
+        /* reserveer kalender */
+
+        /* reserveer gegevens */
+
+        /* reserveer betalen */
+
+        /* reserveer bevestiging */
+
+    /* voorwaarden */
 
 }
 
