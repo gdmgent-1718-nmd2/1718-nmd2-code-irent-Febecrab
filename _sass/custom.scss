@@ -25,12 +25,12 @@
         border-bottom-right-radius: 40px;
     }
 
-    .witruimte {
-        margin-bottom: 30px;
-    }
-
     .spatie {
         margin-top: 20px;
+    }
+
+    .witruimte {
+        margin-bottom:20px;
     }
 
 /* index css */
@@ -165,6 +165,16 @@
             margin-bottom: 60px;
         }
 
+        .titelkader {
+            background-color: rgb(40,35,42) ;
+            padding: 6px;
+            margin-top:30px;
+            margin-right: 60px;
+            color: rgb(227,227,227);
+            border: 1px solid ;
+            border-bottom-right-radius: 40px;
+        }
+
     /* index */
         h4 {
             font-size: 2em;
@@ -176,12 +186,11 @@
 
         .beertje{
             margin-top: 90px;
-            margin-bottom: 0px;
+            margin-bottom: 80px;
         }
 
         .pijltje {
             width: 20%;
-
         }
 
         .inleiding { 
@@ -190,6 +199,9 @@
             margin-top: 12px;
         }
 
+        .tabletspatie {
+            margin-top: 220px;
+        }
 
     /* meet teddy */
 
