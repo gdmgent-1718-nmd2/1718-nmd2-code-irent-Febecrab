@@ -1,5 +1,9 @@
 
 /* algemeen */
+    body {
+        /*background-color: rgb(180,169,173);*/
+    }
+
     .knop {
         margin-top: 20px;
         margin-bottom: 20px;
@@ -102,37 +106,31 @@
         }
         
         .ochtend{
-            list-style-type: square;
-           color: rgb(250,181,12); 
+            list-style-image: url(../../images/ochtend.png);
         }
 
         .middag{
-            list-style-type: square;
-            color: rgb(221,128,10);
+            list-style-image: url(../../images/middag.png);
         }
 
         .avond{
-            list-style-type: square;
-            color: rgb(117,46,67);
+            list-style-image: url(../../images/avond.png);
         }
 
         .gesloten{
-            list-style-type: square;
-            color: rgb(156,31,45);
+            list-style-image: url(../../images/dicht.png);
         }
 
         .klein{
             font-size: 0.75em;
             
         }
-
-        .lijstje {
-            list-style-image: url(../../images/)
-        }
     /* reserveer gegevens*/
 
         .modal-content {
             padding: 10px;
+            background-color: rgb(87,87,98);
+            color: rgb(227,227,227);
         }
 
     /* reserveer betalen */
@@ -167,7 +165,7 @@
             background-color: rgb(40,35,42) ;
             padding: 6px;
             margin-top:30px;
-            margin-right: 60px;
+            margin-right: 400px;
             color: rgb(227,227,227);
             border: 1px solid ;
             border-bottom-right-radius: 40px;
@@ -218,6 +216,13 @@
         /* reserveer bevestiging */
 
     /* voorwaarden */
+
+    /* footer */
+
+    .md_grote {
+        width: 40%;
+        margin-top: 90px;
+    }
 
 }
 
@@ -291,6 +296,10 @@
         .foter{
             background-color: rgb(87,87,98);
             padding: 30px;
+        }
+    
+        .md_grote{
+            width: 30%
         }
        
  }
