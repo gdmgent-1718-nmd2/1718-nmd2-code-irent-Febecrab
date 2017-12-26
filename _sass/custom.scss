@@ -33,6 +33,7 @@
         margin-bottom:20px;
     }
 
+
 /* index css */
 
     .appel {
@@ -135,9 +136,6 @@
         }
 
     /* reserveer betalen */
-        .kadertje {
-
-        }
 
 /* voorwaarden css */
 
@@ -210,6 +208,8 @@
     /* reserveer */
 
         /* reserveer kalender */
+            
+        
 
         /* reserveer gegevens */
 
@@ -237,7 +237,7 @@
         }
 
         .witruimte {
-            margin-bottom: 60px;
+            margin-bottom: 30px;
         }
 
         .spatie {
@@ -249,6 +249,12 @@
             margin-bottom: 80px;
         }
 
+        /* index */
+        .beertje{
+            margin-top: 90px;
+            margin-bottom: 0px;
+        }
+
     /* wie zijn we */
         
         .naam{
@@ -258,6 +264,27 @@
         .opschuiven {
             margin-left: 60px;
         }
+
+    /* reserveer */
+
+        /* reserveer kalender */
+            
+
+        /* reserveer gegevens */
+
+            .groter{
+                font-size: 1.5em;
+            }
+
+            .modal-content {
+                padding: 30px;
+            }
+
+        /* reserveer betalen */
+
+        /* reserveer bevestiging */
+
+    /* voorwaarden */
 
     /* footer */
 

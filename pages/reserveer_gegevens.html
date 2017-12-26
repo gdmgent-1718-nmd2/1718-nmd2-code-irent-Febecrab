@@ -11,15 +11,17 @@ title: Gegevens
         <div class="col-12 ">
             <h3 class="spatie">U gaat een reservatie plaatsen voor teddy op 01/01/2017. Duur: 2u.</h3>
             <p class="witruimte"> Indien dit niet juist is <a href="reserveer.html">klik hier</a> </p>
-            <p class="witruimte">Uw regestratie is bijna voltooid. Nog een paar stappen te gaan.</p>
+        </div>
+        <div class="col-12 col-lg-4">
+            <p class="witruimte groter">Uw regestratie is bijna voltooid. Nog een paar stappen te gaan.</p>
         </div>
     </div>
 
 <!-- breadcrumb -->
-    <div class="row float-center">
-        <div class="col-12 witruimte">
+    <div class="row">
+        <div class="col-12 ">
             <nav aria-label="breadcrumb" role="navigation">
-                <ol class="breadcrumb">
+                <ol class="breadcrumb  witruimte ">
                     <li class="breadcrumb-item active" aria-current="page">gegevens</li>
                     <li class="breadcrumb-item">betalen</li>
                     <li class="breadcrumb-item">bevestiging</li>
@@ -30,85 +32,116 @@ title: Gegevens
 <!-- formulier gegevens -->
     <div class="row">
         <div class="col-12" >
-            <form>
-                    <div class="form-group witruimte">
-                        <label for="exampleFormControlInput1">naam:</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="…">
-                    </div>
         
-                    <div class="form- witruimte">
-                        <label for="exampleFormControlInput1">voornaam:</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="…">
-                    </div>
-
-                    <div class="form-group witruimte">
-                        <label for="exampleFormControlInput1">postcode:</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="…">
-                    </div>
-                
-                    <div class="form-group witruimte">
-                        <label for="exampleFormControlInput1">e-mail:</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="…">
-                    </div>
-
-                    <div class="form-group ">
-                        <label for="exampleFormControlInput1">telefoon:</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="…">
-                    </div>
-
-                    <div class="form-check witruimte">
-                        <label class="form-check-label">
-                            <input type="checkbox" class="form-check-input">
-                            Ik accepteer de <a href="#modal-content"data-toggle="modal" data-target=".bd-example-modal-lg" >gebruiksvoorwaarden</a>
-                        </label>
-                    </div>
-            </form>
-
-<!-- modal content van gebruiksvoorwaardes hierboven -->
-            <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        <div class="row">
-                            <div class="col-12"d-flex justify-content-end>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
+            <div class="row">
+        <!-- naam -->
+                <div class="col-lg-4">
+                    <form>
+                        <div class="form-group witruimte">
+                            <label for="exampleFormControlInput1">naam:</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="typ hier">
                         </div>
-                        
-                            <h3>Algemene gebruiksvoorwaarden</h3>
-                                <div class="row">
-                                    <div class="col-12">
-                                        <p class="model-inhoud">
-                                            Bij gebruik maken van ons product 
-                                            vragen wij u rekening te houden met 
-                                            de volgende voorwaardes. 
-                                            Als u deze naleeft kunnen wij u 
-                                            garanderen op een uniek ervaring met
-                                            onze geweldige teddy. 
-                                            <br>
-                                            <br>
-                                            dit product is niet bedoeld:
-                                                <ul>
-                                                    <li>om mee te gooien</li>
-                                                    <li>kapot te maken </li>
-                                                    <li>vuil te maken</li>
-                                                </ul>
-    
-                                            gelieve onze teddy met respect
-                                            te behandelen. Hij is vooral bedoelt om 
-                                            lief
-                                            <br>
-                                            Indien wij schade opmerken zal u 
-                                            hiervoor een extra schadenvergoeding krijgen.
-                         
-                                        </p>
-                                    </div>
-                                </div>
-                           
-                    </div>
+                    </form>
+                </div>
+        <!-- voornaam -->
+                <div class="col-lg-4">
+                    <form>
+                        <div class="form- witruimte">
+                            <label for="exampleFormControlInput1">voornaam:</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="typ hier">
+                        </div>
+                    </form>
+                </div>
+        <!-- postcode -->
+                <div class="col-lg-2">
+                    <form>
+                        <div class="form-group witruimte">
+                            <label for="exampleFormControlInput1">postcode:</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="typ hier">
+                        </div>
+                    </form>
                 </div>
             </div>
+
+            <div class="row">
+        <!-- email -->
+                <div class="col-lg-4">
+                    <form>
+                        <div class="form-group witruimte">
+                            <label for="exampleFormControlInput1">e-mail:</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="typ hier">
+                        </div>
+                    </form>
+                </div>
+        <!-- telefoon -->
+                <div class="col-lg-3">
+                    <form>
+                        <div class="form-group ">
+                            <label for="exampleFormControlInput1">telefoon:</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="typ hier">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="row">
+        <!-- algemene voorwaardes accepteren -->
+                <div class="col-lg-8">
+                    <form>
+                        <div class="form-check witruimte">
+                            <label class="form-check-label">
+                                <input type="checkbox" class="form-check-input">
+                                    Ik accepteer de <a href="#modal-content"data-toggle="modal" data-target=".bd-example-modal-lg" >gebruiksvoorwaarden</a>
+                            </label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        <!-- modal content van gebruiksvoorwaardes -->
+                <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="row">
+                                <div class="col-12" >
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                            </div>
+
+                                <h3>Algemene gebruiksvoorwaarden</h3>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <p class="model-inhoud">
+                                                Bij gebruik maken van ons product 
+                                                vragen wij u rekening te houden met 
+                                                de volgende voorwaardes. 
+                                                Als u deze naleeft kunnen wij u 
+                                                garanderen op een uniek ervaring met
+                                                onze geweldige teddy. 
+                                                <br>
+                                                <br>
+                                                dit product is niet bedoeld:
+                                                    <ul>
+                                                        <li>om mee te gooien</li>
+                                                        <li>kapot te maken </li>
+                                                        <li>vuil te maken</li>
+                                                    </ul>
+
+                                                gelieve onze teddy met respect
+                                                te behandelen. Hij is vooral bedoelt om 
+                                                lief
+                                                <br>
+                                                Indien wij schade opmerken zal u 
+                                                hiervoor een extra schadenvergoeding krijgen.
+                                            </p>
+                                        </div>
+                                    </div>
+                           
+                        </div>
+                    </div>
+                </div>
         </div>
     </div>
 
