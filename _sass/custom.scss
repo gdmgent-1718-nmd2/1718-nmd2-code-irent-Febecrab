@@ -1,189 +1,165 @@
 
-/* algemeen */
-    body {
-        /*background-color: rgb(180,169,173);*/
-        background: linear-gradient( whitesmoke,rgb(227, 227, 227) );
-    }
+// Mobile small devices:
 
-    .knop {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .groteknop {
-        margin-top: 20px;
-        margin-bottom: 80px;
-    
-    }
-   
-    .letter2{
-        font-family: 'Contrail One', cursive;
-    }
+    /* algemeen */
+        body {
+            background: linear-gradient( whitesmoke,rgb(227, 227, 227) );
+        }
 
-    .titelkader {
-        background-color: rgb(40,35,42) ;
-        padding: 6px;
-        margin-top:30px;
-        margin-right: 80px;
-        margin-left: -20px;
-        color: rgb(227,227,227);
-        border: 1px solid ;
-        border-bottom-right-radius: 40px;
-    }
-
-    .witruimte {
-        margin-bottom:20px;
-    }
-
-    .btn {
-        background-color: rgb(149,132,132);
-        border: none;
-    }
-
-    .btn:hover {
-        background-color: rgb(71,57,64);
-    }
-
-    a:hover {
-        text-decoration: none;
-        color: rgb(71,57,64);
-    }
-
-    a {
-        color: rgb(149,132,132);
-    }
-
-
-
-/* index css */
-
-    .appel {
-        margin-top: 30px;
-        margin-left: -45px;
-        margin-right: -10px;
-        color: black;
-    }
-
-    .sticky {
-        position: -webkit-sticky; /* Safari */
-        position: sticky;
-        top: 30px;
-        width:100%;
-        bottom:20px; 
-        margin-top: 9px;
-    }
-
-    .sticky:hover, .sticky:active {
-        transform: scale(1.2);
-        transition: 0.5s;
-    }
-
-    .inleiding { 
-        margin-bottom: 30px;
-        font-size: 0.95em;
-        margin-top: 12px;
-    }
-
-    .beertje{
-        margin-top: 120px;
-        margin-bottom: 65px;
-    }
-
-    .text-center {
-        margin-bottom: 60px;
-    }
-
-    .pijltje {
-        width: 45%;
-    }
-
-    .spinning {
-        overflow: hidden;
-        transition-duration: 0.8s;
-        transition-property: transform;
-    }
-
-    .spinning:hover {
-        transform: rotate(360deg);
-        -webkit-transform: rotate(360deg);
-    }
-
-    .witruimte2 {
-        margin-bottom: 20px;
-    }
-
-/* wie zijn we css */
-
-/* meet teddy css*/
-
-/* reserveer css */
-
-    /* reserveer kalender*/
-        .kalender {
+        .knop {
+            margin-top: 20px;
             margin-bottom: 20px;
         }
-        .legende{
-            margin-top: 10px;
-            margin-bottom: 40px;
+        .groteknop {
+            margin-top: 20px;
+            margin-bottom: 80px;
         }
+   
+        .letter2{
+            font-family: 'Contrail One', cursive;
+        }
+
+        .titelkader {
+            background-color: rgb(40,35,42) ;
+            padding: 6px;
+            margin-top:30px;
+            margin-right: 80px;
+            margin-left: -20px;
+            color: rgb(227,227,227);
+            border: 1px solid ;
+            border-bottom-right-radius: 40px;
+        }
+
+        .witruimte {
+            margin-bottom:20px;
+        }
+
+        .btn {
+            background-color: rgb(149,132,132);
+            border: none;
+        }
+
+        .btn:hover {
+            background-color: rgb(71,57,64);
+        }
+
+        a:hover {
+            text-decoration: none;
+            color: rgb(71,57,64);
+        }
+
+        a {
+            color: rgb(149,132,132);
+        }
+
+    /* index css */
+
+        .appel {
+            margin-top: 30px;
+            margin-left: -45px;
+            margin-right: -10px;
+            color: black;
+        }
+
+        .sticky {
+            position: -webkit-sticky; /* Safari */
+            position: sticky;
+            top: 30px;
+            width:100%;
+            bottom:20px; 
+            margin-top: 9px;
+        }
+
+        .sticky:hover, .sticky:active {
+            transform: scale(1.2);
+            transition: 0.5s;
+        }
+
+        .inleiding { 
+            margin-bottom: 30px;
+            font-size: 0.95em;
+            margin-top: 12px;
+        }
+
+        .text-center {
+            margin-bottom: 60px;
+        }
+
+        .pijltje {
+            width: 45%;
+        }
+
+        .spinning {
+            overflow: hidden;
+            transition-duration: 0.8s;
+            transition-property: transform;
+        }
+
+        .spinning:hover {
+            transform: rotate(360deg);
+            -webkit-transform: rotate(360deg);
+        }
+
+        .witruimte2 {
+            margin-bottom: 20px;
+        }
+
+    /* reserveer css */
+
+        /* reserveer kalender*/
+            .kalender {
+                margin-bottom: 20px;
+            }
+            .legende{
+                margin-top: 10px;
+                margin-bottom: 40px;
+            }
         
-        .ochtend{
-            list-style-image: url(../../images/ochtend.png);
-        }
+            .ochtend{
+                list-style-image: url(../../images/ochtend.png);
+            }
 
-        .middag{
-            list-style-image: url(../../images/middag.png);
-        }
+            .middag{
+                list-style-image: url(../../images/middag.png);
+            }
 
-        .avond{
-            list-style-image: url(../../images/avond.png);
-        }
+            .avond{
+                list-style-image: url(../../images/avond.png);
+            }
 
-        .gesloten{
-            list-style-image: url(../../images/dicht.png);
-        }
+            .gesloten{
+                list-style-image: url(../../images/dicht.png);
+            }
 
-        .klein{
-            font-size: 0.75em;
+            .klein{
+                font-size: 0.75em;
+            }
+        /* reserveer gegevens*/
+
+            .modal-content {
+                padding: 10px;
+                background-color: rgb(87,87,98);
+                color: rgb(227,227,227);
+            }
+
+            .breadcrumb {
+                background-color: rgb(40,35,42)
+            }
             
-        }
-    /* reserveer gegevens*/
+            .breadcrumb-item {
+                color: rgb(227,227,227);
+            }
 
-        .modal-content {
-            padding: 10px;
+    /* footer */
+
+        .foter{
             background-color: rgb(87,87,98);
-            color: rgb(227,227,227);
+            padding: 30px;
         }
 
-        .breadcrumb {
-            background-color: rgb(40,35,42)
+        .a_footer {
+            color: rgb(227, 227, 227)!important;
         }
-        .breadcrumb-item {
-            color: rgb(227,227,227);
-        }
-
-    /* reserveer betalen */
-
-/* voorwaarden css */
-
-/* footer */
-
-    .foter{
-        background-color: rgb(87,87,98);
-        padding: 30px;
-    }
-
-    .a_footer {
-        color: rgb(227, 227, 227)!important;
-    }
-
-
-    // Extra small devices (portrait phones, less than 576px)
-// No media query since this is the default in Bootstrap
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { 
-
-}
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { 
@@ -233,8 +209,6 @@
             margin-bottom: 50px;
         }
 
-    /* meet teddy */
-
     /* over ons */
         .naambalk{
             margin-right: 230px;
@@ -250,15 +224,6 @@
          .witruimte2 {
              margin-bottom: 40px;
          }
-        
-
-        /* reserveer gegevens */
-     
-        /* reserveer betalen */
-
-        /* reserveer bevestiging */
-
-    /* voorwaarden */
 
     /* footer */
 
@@ -270,9 +235,6 @@
     .md_grote {
         margin-top: 50px;
     }
-
-    
-    
 
 }
 
@@ -348,12 +310,6 @@
                 padding: 30px;
             }
 
-        /* reserveer betalen */
-
-        /* reserveer bevestiging */
-
-    /* voorwaarden */
-
     /* footer */
 
         .foter{
@@ -366,9 +322,4 @@
             width: 70%
         }
        
- }
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { 
-
  }
