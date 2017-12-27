@@ -2,6 +2,7 @@
 /* algemeen */
     body {
         /*background-color: rgb(180,169,173);*/
+        background: linear-gradient( whitesmoke,rgb(227, 227, 227) );
     }
 
     .knop {
@@ -37,6 +38,14 @@
         margin-bottom:20px;
     }
 
+    .btn {
+        background-color: rgb(149,132,132);
+        border: none;
+    }
+
+    .btn:hover {
+        background-color: rgb(71,57,64);
+    }
 
 
 /* index css */
@@ -45,6 +54,7 @@
         margin-top: 30px;
         margin-left: -45px;
         margin-right: -10px;
+        color: black;
     }
 
     .sticky {
@@ -99,10 +109,10 @@
 
     /* reserveer kalender*/
         .kalender {
-            margin-bottom: -50px;
+            margin-bottom: 20px;
         }
         .legende{
-            margin-top: -120px;
+            margin-top: 10px;
             margin-bottom: 40px;
         }
         
@@ -165,9 +175,6 @@
 @media (min-width: 768px) { 
 
     /* algemeen */
-        p {
-            margin-bottom: 60px;
-        }
 
         .titelkader {
             background-color: rgb(40,35,42) ;
@@ -209,12 +216,21 @@
 
     /* meet teddy */
 
-    /* wie zijn we */
+    /* over ons */
+        .naambalk{
+            margin-right: 230px;
+        }
+
+        .emailbalk {
+            margin-right: 180px;
+        }
 
     /* reserveer */
 
         /* reserveer kalender */
-            
+            .kalender {
+                margin-bottom: 30px;
+            }
         
 
         /* reserveer gegevens */
@@ -227,10 +243,18 @@
 
     /* footer */
 
-    .md_grote {
-        width: 40%;
-        margin-top: 90px;
+    .foter {
+        padding: 50px;
+        padding-left: 100px;
     }
+
+    .md_grote {
+        width: 85%;
+        margin-top: 50px;
+    }
+
+    
+    
 
 }
 
@@ -250,7 +274,7 @@
         }
 
         .witruimte {
-            margin-bottom: 30px;
+            margin-bottom: 10px;
         }
 
         .spatie {
@@ -281,7 +305,9 @@
     /* reserveer */
 
         /* reserveer kalender */
-            
+            .kalender {
+                margin-bottom: 40px;
+            }
 
         /* reserveer gegevens */
 
@@ -303,11 +329,12 @@
 
         .foter{
             background-color: rgb(87,87,98);
-            padding: 30px;
+            padding: 60px;
+            padding-left: 230px;
         }
     
         .md_grote{
-            width: 30%
+            width: 70%
         }
        
  }

@@ -13,10 +13,15 @@ title: Reserveer hier
 
 <!-- kalender carousel -->
     <div class="row">
-        <div class="col-12 col-md-5 col-lg-5">
+        <div class="col-12 col-md-6 col-lg-4">
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
                 <div class="carousel-inner">
+
                     <div class="carousel-item active">
+                        <img class="d-block w-100" src="{{ site.baseurl }}/images/dec.png" alt="december">
+                    </div>
+
+                    <div class="carousel-item ">
                         <img class="d-block w-100" src="{{ site.baseurl }}/images/jan.png" alt="januarie">
                     </div>
                         
@@ -61,7 +66,7 @@ title: Reserveer hier
                     </div>
 
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="{{ site.baseurl }}/images/dec.png" alt="december">
+                        <img class="d-block w-100" src="{{ site.baseurl }}/images/dec2.png" alt="december">
                     </div>
 
                 </div>
@@ -86,17 +91,19 @@ title: Reserveer hier
 
 <!-- tekst -->
             
-        <div class="col-12 col-md-7 col-lg-6 witruimte">
+        <div class="col-12 col-lg-6">
+            <p>
             Selecteer de gewenste datum, vermits 
             beschikbaarheid van Teddy. 
             Wij zorgen er dan voor dat hij klaar zal 
             liggen aan de kassa van Kinepolis Gent.
+            </p>
 
 <!-- reservatie formulier -->
 
             <div class="row"> <!-- ingeneste rij -->
         <!-- datum -->
-                <div class="col-lg-2">
+                <div class="col-4 col-md-3 col-lg-2">
                     <form>
                         <div class="form-group witruimte datum">
                             <label for="exampleFormControlSelect1">Datum:</label>
@@ -138,7 +145,7 @@ title: Reserveer hier
                 </div>
         
         <!-- maand -->
-                <div class="col-lg-4">
+                <div class="col-6 col-md-5 col-lg-4">
                     <form>
                         <div class="form-group witruimte">
                             <label for="exampleFormControlSelect1">Maand:</label>
@@ -162,7 +169,7 @@ title: Reserveer hier
             </div>
         <!-- jaar -->
             <div class="row">
-                <div class="col-lg-3">
+                <div class=" col-5 col-md-4 col-lg-3">
                     <form>
                         <div class="form-group witruimte">
                             <label for="exampleFormControlSelect1">Jaar:</label>
@@ -177,13 +184,16 @@ title: Reserveer hier
                     </form>
                 </div>
         <!-- uur -->
-                <div class="col-lg-6">
+                <div class=" col-8 col-md-5 col-lg-6">
                     <form>
                         <div class="form-group ">
                             <label for="exampleFormControlInput1">Uur*:</label>
                                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="voer hier de uren in">    
                         </div>
                     </form>
+                </div>
+
+                <div class="col-12 col-md-10-col-lg-6">
         <!-- opmerking bij uur -->
                     <p class="klein"> * Vul hier het begin en eind uur van de film toe</p>
 
