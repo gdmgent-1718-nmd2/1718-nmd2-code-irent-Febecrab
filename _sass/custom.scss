@@ -30,10 +30,6 @@
         border-bottom-right-radius: 40px;
     }
 
-    .spatie {
-        margin-top: 20px;
-    }
-
     .witruimte {
         margin-bottom:20px;
     }
@@ -46,6 +42,16 @@
     .btn:hover {
         background-color: rgb(71,57,64);
     }
+
+    a:hover {
+        text-decoration: none;
+        color: rgb(71,57,64);
+    }
+
+    a {
+        color: rgb(149,132,132);
+    }
+
 
 
 /* index css */
@@ -99,6 +105,10 @@
     .spinning:hover {
         transform: rotate(360deg);
         -webkit-transform: rotate(360deg);
+    }
+
+    .witruimte2 {
+        margin-bottom: 20px;
     }
 
 /* wie zijn we css */
@@ -162,6 +172,10 @@
         padding: 30px;
     }
 
+    .a_footer {
+        color: rgb(227, 227, 227)!important;
+    }
+
 
     // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
@@ -193,10 +207,11 @@
 
         .appel {
             margin-left: -70px;
+            margin-top: 130px;
         }
 
         .beertje{
-            margin-top: 90px;
+            margin-top: 180px;
             margin-bottom: 80px;
         }
 
@@ -214,6 +229,10 @@
             margin-top: 220px;
         }
 
+        .spatie {
+            margin-bottom: 50px;
+        }
+
     /* meet teddy */
 
     /* over ons */
@@ -228,9 +247,9 @@
     /* reserveer */
 
         /* reserveer kalender */
-            .kalender {
-                margin-bottom: 30px;
-            }
+         .witruimte2 {
+             margin-bottom: 40px;
+         }
         
 
         /* reserveer gegevens */
@@ -249,7 +268,6 @@
     }
 
     .md_grote {
-        width: 85%;
         margin-top: 50px;
     }
 
@@ -274,7 +292,7 @@
         }
 
         .witruimte {
-            margin-bottom: 10px;
+            margin-bottom: 20px;
         }
 
         .spatie {
@@ -292,6 +310,15 @@
             margin-bottom: 0px;
         }
 
+        .appel {
+            margin-left: -70px;
+            margin-top: 70px;
+        }
+
+        .spatie {
+            margin-bottom: 90px;
+        }
+
     /* wie zijn we */
         
         .naam{
@@ -306,9 +333,11 @@
 
         /* reserveer kalender */
             .kalender {
-                margin-bottom: 40px;
+                margin-bottom: 0px;
             }
-
+            .witruimte2 {
+                margin-bottom: 0px;
+            }
         /* reserveer gegevens */
 
             .groter{

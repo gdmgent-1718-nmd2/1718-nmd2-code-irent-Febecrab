@@ -8,13 +8,13 @@ title: Reserveer hier
 <!-- pagina titel -->
     
         <div class="col-12 col-lg-4">
-                <h2 class="kalender titelkader witruimte">{{ page.title }}</h2>
+                <h2 class=" titelkader witruimte">{{ page.title }}</h2>
         </div>
 
 <!-- kalender carousel -->
     <div class="row">
         <div class="col-12 col-md-6 col-lg-4">
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
+            <div id="carouselExampleControls" class="carousel slide kalender" data-ride="carousel" data-interval="false">
                 <div class="carousel-inner">
 
                     <div class="carousel-item active">
@@ -80,7 +80,8 @@ title: Reserveer hier
                         <span class="sr-only">Next</span>
                     </a>
             </div>
-
+        </div>
+        <div class="col-md-6 col-lg-12 order-lg-4">
             <ul class="legende">
                 <li class="ochtend">Teddy is gereserveerd die ochtend</li>
                 <li class="middag"> Teddy is gereserveerd die middag</li>
@@ -171,7 +172,7 @@ title: Reserveer hier
             <div class="row">
                 <div class=" col-5 col-md-4 col-lg-3">
                     <form>
-                        <div class="form-group witruimte">
+                        <div class="form-group">
                             <label for="exampleFormControlSelect1">Jaar:</label>
                                 <select class="form-control" id="exampleFormControlSelect1">
                                     <option>2017</option>
@@ -193,13 +194,13 @@ title: Reserveer hier
                     </form>
                 </div>
 
-                <div class="col-12 col-md-10-col-lg-6">
+                <div class="col-12 col-md-10-col-lg-3">
         <!-- opmerking bij uur -->
                     <p class="klein"> * Vul hier het begin en eind uur van de film toe</p>
 
         <!-- button -->
                     <a href="reserveergegevens.html">
-                        <button type="button" class="btn btn-secondary knop letter2 float-right" >volgende</button>
+                        <button type="button" class="btn btn-secondary letter2 float-right witruimte2" >volgende</button>
                     </a>  
                 </div> 
             </div>
