@@ -2,9 +2,6 @@
 // Mobile small devices:
 
     /* algemeen */
-        body {
-            background: linear-gradient( whitesmoke,rgb(227, 227, 227) );
-        }
 
         .knop {
             margin-top: 20px;
@@ -50,6 +47,10 @@
 
         a {
             color: rgb(149,132,132);
+        }
+
+        .spatie {
+            margin-top: 20px;
         }
 
     /* index css */
@@ -102,6 +103,11 @@
 
         .witruimte2 {
             margin-bottom: 20px;
+        }
+
+        .beertje{
+            margin-top: 180px;
+            margin-bottom: 80px;
         }
 
     /* reserveer css */
@@ -161,6 +167,10 @@
             color: rgb(227, 227, 227)!important;
         }
 
+        .md_grote{
+            width: 15%;
+        }
+
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { 
 
@@ -182,12 +192,12 @@
         }
 
         .appel {
-            margin-left: -70px;
-            margin-top: 130px;
+            margin-left: -20px;
+            margin-top: 100px;
         }
 
         .beertje{
-            margin-top: 180px;
+            margin-top: 220px;
             margin-bottom: 80px;
         }
 
@@ -203,10 +213,6 @@
 
         .tabletspatie {
             margin-top: 220px;
-        }
-
-        .spatie {
-            margin-bottom: 50px;
         }
 
     /* over ons */
@@ -228,13 +234,19 @@
     /* footer */
 
     .foter {
-        padding: 50px;
-        padding-left: 100px;
+        padding: 30px;
+        padding-left: 130px;
     }
 
     .md_grote {
-        margin-top: 50px;
+        margin-top: 40px;
+        width: 8%;
     }
+
+    .sociaal {
+        padding-left: 90px;
+    }
+    
 
 }
 
@@ -277,10 +289,6 @@
             margin-top: 70px;
         }
 
-        .spatie {
-            margin-bottom: 90px;
-        }
-
     /* wie zijn we */
         
         .naam{
@@ -289,6 +297,10 @@
 
         .opschuiven {
             margin-left: 60px;
+        }
+
+        .marg_md {
+            margin-top: -350px;
         }
 
     /* reserveer */
@@ -314,12 +326,16 @@
 
         .foter{
             background-color: rgb(87,87,98);
-            padding: 60px;
-            padding-left: 230px;
+            padding: 40px;
+            padding-left: 400px;
         }
     
         .md_grote{
-            width: 70%
+            width: 8%;
+        }
+
+        .sociaal {
+            padding-left: 90px;
         }
        
  }
